@@ -20,6 +20,32 @@
     <link rel="stylesheet" href="./src/styles/main.css">
 </head>
 <body>
+
+    <div class="bg-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/assets/video/yugi.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="container">
+        <div class="container__left">
+            <div class="score_box">
+                <span id="score_points">Win: 0 | Lose: 0</span>
+            </div>
+            <div class="menu_avatar">
+                <img id="card-image">
+            </div>
+            <div class="card_details">
+                <p id="card-name"></p>
+                <p id="card-type"></p>
+            </div>
+        </div>
+
+        <div class="container__right">
+            <div class="card-box__container"></div>
+        </div>
+    </div>
+    
     <script src="./src/scripts/engine.js" defer></script>
 </body>
 </html>
