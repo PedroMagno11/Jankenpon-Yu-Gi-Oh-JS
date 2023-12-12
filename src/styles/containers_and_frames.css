@@ -17,7 +17,7 @@
 {
 	/* border */
 	border-style: solid;
-	border-image-source: url("img/border-image.png");
+	border-image-source: url("../assets/rpg/border-image.png");
 	border-image-repeat: repeat;
 	border-image-slice: 6 6 6 6;
 	border-image-width: 18px;
@@ -30,7 +30,7 @@
     -webkit-box-sizing: border-box;
 
 	/* background */
-	background: url("img/background-image.png") repeat repeat;
+	background: url("../assets/rpg/background-image.png") repeat repeat;
 	background-clip: padding-box;
 	background-origin: padding-box;
 	background-position: center;
@@ -41,7 +41,7 @@
 {
 	/* border */
 	border-style: solid;
-	border-image-source: url("img/border-image-golden.png");
+	border-image-source: url("../assets/rpg/border-image-golden.png");
 	border-image-repeat: repeat;
 	border-image-slice: 4 4 4 4;
 	border-image-width: 18px;
@@ -54,7 +54,7 @@
     -webkit-box-sizing: border-box;
 
 	/* background */
-	background: url("img/background-image-golden.png") repeat repeat;
+	background: url("../assets/rpg/background-image-golden.png") repeat repeat;
 	background-clip: padding-box;
 	background-origin: padding-box;
 	background-position: center;
@@ -65,7 +65,7 @@
 {
 	/* border */
 	border-style: solid;
-	border-image-source: url("img/border-image-golden2.png");
+	border-image-source: url("../assets/rpg/border-image-golden2.png");
 	border-image-repeat: repeat;
 	border-image-slice: 8 8 8 8;
 	border-image-width: 18px;
@@ -78,7 +78,7 @@
     -webkit-box-sizing: border-box;
 
 	/* background */
-	background: url("img/background-image-golden2.png") repeat repeat;
+	background: url("../assets/rpg/background-image-golden2.png") repeat repeat;
 	background-clip: padding-box;
 	background-origin: padding-box;
 	background-position: center;
@@ -91,7 +91,7 @@
 
 	/* border */
 	border-style: solid;
-	border-image-source: url("img/border-image-grey.png");
+	border-image-source: url("../assets/rpg/border-image-grey.png");
 	border-image-repeat: repeat;
 	border-image-slice: 3 3 3 3;
 	border-image-width: 7px;
@@ -104,7 +104,7 @@
     -webkit-box-sizing: border-box;
 
 	/* background */
-	background: url("img/background-image-grey.png") repeat repeat;
+	background: url("../assets/rpg/background-image-grey.png") repeat repeat;
 	background-clip: padding-box;
 	background-origin: padding-box;
 	background-position: center;
