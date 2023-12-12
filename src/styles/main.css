@@ -27,5 +27,67 @@
     z-index: 3;
     display: flex;
     height: 100vh;
-    
+}
+
+.container__left{
+    width: 35%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container__right{
+    width: 65%;
+}
+
+
+.score_box{
+    background-color: #fff;
+    padding: 30px;
+}
+
+.frame{
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.card_details{
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    width: 100%;
+}
+
+#card-name{
+    font-size: 0.8rem;
+}
+
+#card-type{
+    font-size: 1rem;
+}
+
+.card-box__container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.3rem;
+}
+
+.card-versus{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.1rem;
+    height: 300px;
+}
+
+.versus-top, .versus-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
