@@ -39,6 +39,7 @@ O projeto base possui a seguinte estrutura:
 - `src/assets`: Contém os arquivos de audios, cursor, favicon, icons, rpg, video.
 - `src/scripts`: Contém a engine do jogo.
 - `src/styles`: Contém as folhas de estilização.
+- `index.html`: Contém o código HTML básico do projeto.
 - `README.md`: Documentação principal do projeto.
 
 ## Contribuições
