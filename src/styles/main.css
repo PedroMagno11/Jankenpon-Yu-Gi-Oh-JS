@@ -1,3 +1,11 @@
+body{
+    cursor: url("../assets/cursor/cursor.png"), default;
+}
+
+button, a, img:hover,button:hover,a:hover{
+    cursor: url("../assets/cursor/cursor.png"), auto;
+}
+
 .bg-video{
     position: absolute;
     z-index: -2;
@@ -34,6 +42,7 @@
     min-width: 300px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -79,9 +88,11 @@
     padding: 0.3rem;
 }
 
-.card-versus{
+.card-versus__container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 0.1rem;
     height: 300px;
 }
@@ -90,4 +101,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.versus-bottom{
+    margin-top: 1rem;
+}
+
+#next-duel{
+    display: none;
+}
+
+.card-box{
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-infield{
+    height: 11.2rem;
+    width: 8rem;
+    border-radius: 8px;
+    border: 1px solid #fff;
+}
+
+
+.card{
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: scale(1.2);
 }
